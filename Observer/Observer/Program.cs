@@ -63,6 +63,7 @@ namespace RefactoringGuru.DesignPatterns.Observer.Conceptual
 
             foreach (var observer in _observers)
             {
+                //fired
                 observer.Update(evt);
             }
         }
